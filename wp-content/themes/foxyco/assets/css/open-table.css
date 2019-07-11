@@ -1,0 +1,11 @@
+.otw-bare-bones-style{ width:100%; padding:20px 0 0 0; text-align:center;}
+.otw-bare-bones-style h3{ color:#218493; font-size:20px; font-weight:normal; letter-spacing:2px;}
+.otw-bare-bones-style .otw-input-wrap{ margin:10px 0;}
+.otw-bare-bones-style label{ width:100%; display:block; color:#000000; font-size:14px; font-weight:normal; text-align:left; margin-bottom: 0.1rem; text-transform:uppercase; font-family:Arial, Helvetica, sans-serif;}
+.otw-bare-bones-style input{ width:100%; display:block; color:#000000; font-size:14px; font-weight:normal; padding:5px 5px; font-family:Arial, Helvetica, sans-serif; border:1px solid #000;}
+.otw-bare-bones-style select{ width:100%; display:block; color:#000000; font-size:14px; font-weight:normal; padding:5px 5px; font-family:Arial, Helvetica, sans-serif; border:1px solid #000;}
+
+.otw-bare-bones-style input[type="submit"]{ width:100%; display:inline-block; font-size:14px; color:#000; text-transform:uppercase; font-weight:700; letter-spacing:2px; margin:10px 0 0 0; padding:0; line-height:52px; border:1px solid #000; border-radius:5px; text-decoration:none; background:#FFFFFF; cursor:pointer;}
+
+.otw-bare-bones-style input:hover[type="submit"]{ color:#FFF; background:#000;}
+.otw-bare-bones-style .powered-by-open-table{ display:none;}

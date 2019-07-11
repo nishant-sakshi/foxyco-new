@@ -1,0 +1,174 @@
+@media (max-width:1440px) {
+.container{	max-width: 1360px;}
+
+.contact-page .address-box{ padding: 88px 10px;}
+}
+
+@media (max-width:1366px) {
+.container{	max-width: 1300px;}
+
+.location-time .col-md-4{  min-height:630px;}
+
+.contact-page .col-sm1{ width:35%;}
+.contact-page .col-sm2{ width:65%;}
+
+.footer-bg{ min-height:350px;}
+}
+
+
+@media (max-width:1365px) {
+	.container{	max-width:100%; padding:0 30px;}
+	.location-box a{width:250px;}
+	
+}
+
+@media (max-width:1100px) {
+	.navbar-brand { width:200px;}
+	.navbar-brand img{ max-width:100%; height:auto;}
+	#mainNav.navbar-shrink .navbar-brand img{-webkit-transform: scale(0.7); transform: scale(0.7);}
+	.book-a-table {margin: 0 0 0 40px;}
+	.book-a-table a{ line-height:46px;}
+	
+	
+	.top-cv {height: 100px;}
+	.bot-cv {height: 100px;}
+	
+	.location-box .inner{ padding:70px 0;}
+	.location-box span{font-size:15px;}
+	.location-box .address{font-size:18px;}
+	.location-box a{ font-size:15px;}
+
+	footer .footer-logos .f-logo{ margin:0 15px;}
+	footer .footer-logos .f-logo img{height:55px;}
+	footer .footer-logos a{font-size:18px; line-height:18px;}
+
+	footer ul.quicklinks li{margin: 0 0 0 40px;}
+	
+	.instagram-main h3{font-size: 30px; top:55%;}
+	
+	.menu-page .menu-center ul li a{ font-size:30px; height: 90px;}
+	.menu-page .menu-center ul li a:hover{background-size:150px 90px;}
+	.menu-page .menu-center ul li:last-child a:hover{background-size:308px 90px;}
+	
+	.title-text h1{ font-size:46px;}
+	.footer-bg{ min-height:300px;}
+	.location-time .col-md-4{  min-height:500px;}
+	
+	.gallery-main ul.gallery-box li{ min-width:inherit; max-width:49%; margin: 0 0 70px 0;}
+	
+	.contact-page .col-sm1{width: 35%; padding: 0 15px; }
+	.contact-page .address-box{padding: 78px 10px;}
+	.contact-page .col-sm2{width: 65%; padding: 0 15px;}
+	.contact-page .contact-form{ padding: 40px 50px 40px 50px;}
+	.instagallery-items .ig-item{ width:50% !important;}
+	.contact-page .address-box .mail-info p a{ font-size:17px;}
+}
+
+
+@media (max-width:1023px) {
+	section {padding:0px 0}
+	.navbar-brand {width:180px;}
+	#mainNav.navbar-shrink .navbar-brand img{-webkit-transform: scale(1); transform: scale(1);}
+	#mainNav .navbar-toggler{ position:absolute; right:10px; top:8px; outline:none;}
+	#mainNav .navbar-nav .nav-item{padding:10px 0;}
+	.navbar-collapse { border-top:1px solid #fed136; margin:10px 0 0 0;}
+	#mainNav .navbar-nav .nav-item.current-menu-item a{ color:#fed136;}
+	.book-a-table{position:absolute; right:75px; top:20px; margin:0;}
+	
+	.location-time{ display:block;}
+	.location-time h1{ font-size:30px;}
+	.location-time .col-md-4{ max-width:50%; flex:auto; margin:0 0 50px 0; display:inline-block; min-height:inherit !important;}
+	.location-time .col-md-4:last-child .featuredn-bg{ min-height:460px;}
+	.welcome{margin: 50px 0 0 0;}
+
+	.instagram-main ul li{ width:50%;}
+	footer ul.quicklinks li{margin: 0 0 0 16px;}
+	
+	.menu-page .food-detail{ margin:10px 0 20px 0; padding:0; border-bottom:1px solid #CCC;}
+
+	.about-us .about-text{ width:100%;}
+	.about-us .about-pic{ width:100%;}
+
+	.contact-page h1{ font-size:30px;}	
+	.contact-page .col-sm1{width: 100%; padding: 0 15%; margin:0 0 40px 0;}
+	.contact-page .address-box{padding: 78px 30px;}
+	.contact-page .col-sm2{width: 100%; padding: 0 5%;}
+	.contact-page .contact-form{ padding: 40px 50px 40px 50px;}
+	
+	@media screen and (-webkit-min-device-pixel-ratio:0) {.location-time .col-md-4{  height:inherit;}}
+
+}
+
+@media (max-width:767px) {
+	.container{ padding:0 15px;}
+	.navbar-brand{width: 130px;	}
+	#mainNav .navbar-toggler{ font-size:25px; top:3px; right:5px; padding:13px;}
+	.book-a-table{right:60px; top:15px;}
+	.book-a-table a{line-height: 36px; font-size: 0.8rem; letter-spacing:2px; padding: 0 20px;}
+	
+	.top-cv {height: 80px; top:-70px;}
+	.bot-cv {height: 80px; bottom:-70px;}
+	
+	.location-time .col-md-4{ max-width:60%;}
+	.location-time h1{ font-size:26px;}
+	.location-box a{margin: 20px 0 0 0; font-size:14px; line-height:46px;}
+	.location-box .inner{padding: 50px 0;}
+	.location-box .inner p{line-height: 1; margin-bottom: 0;}
+	
+	.welcome{margin: 0px 0 0 0;}
+	.welcome p{ font-size:15px; line-height:24px;}
+	
+	
+	.instagram-main h3{ top:50%;}
+	
+	ul.social-buttons{ text-align:center; margin:0;}
+	footer ul.quicklinks{ text-align:center; margin:0; line-height: 24px;}
+	footer ul.quicklinks li{margin: 0 30px;}
+	
+	footer .col-md-4 img{ max-width:110px; height:auto; margin:20px 0;}
+	
+	.title-text h1{ font-size:40px; font-weight:500;}
+	
+	.about-us p{font-size: 15px; line-height: 24px; padding:0 15px}
+	
+	.footer-bg{ min-height:200px;}
+	
+	.menu-page .food-detail ul li{padding: 0px 30px 0px 0px;}
+	.menu-page .food-detail ul li h5{font-size: 16px;}
+	.menu-page .food-detail ul li p{ font-size:13px; line-height:18px; margin: 0px 0px 15px 0px;}
+	
+	.menu-page .menu-center ul li a{ font-size:26px; height: 70px; padding: 15px 20px 0px 20px;}
+	.menu-page .menu-center ul li a:hover{background-size:120px 70px;}
+	.menu-page .menu-center ul li:last-child a:hover{background-size:256px 70px;}
+	
+	.gallery-main ul.gallery-box li{margin: 0 0 30px 0; padding: 0 10px;}
+	
+	.contact-page .address-box{padding: 50px 30px;}
+	.contact-page .address-box .address-info{ margin:20px 0 0 0;}
+	.contact-page .address-box .mail-info p span{ font-size:15px;}
+	.contact-page .address-box .address-info p span{font-size:15px;}
+	.contact-page .address-box .address-info p{font-size:18px;}
+	
+	.contact-page h1{ font-size:26px;}
+	.contact-page .contact-form ul li{margin: 0px 0px 20px 0px;}
+	.contact-page .contact-form ul li input[type="text"]{font-size:12px; padding: 0px 14px; height:44px; line-height:44px; letter-spacing: 1px;}
+	.contact-page .contact-form ul li select{font-size:12px; padding: 0px 14px; height:44px; line-height:44px; background-size:18px auto; letter-spacing: 1px;}
+	.contact-page .contact-form ul li textarea{font-size:12px; padding: 0px 14px; line-height:20px; letter-spacing: 1px;}
+	.contact-page .contact-form ul li input[type="submit"] { margin: 20px 0 0 0; font-size: 14px; line-height: 46px;}
+
+
+@media (max-width:479px) {
+	.navbar-brand{width: 110px;	}
+	.book-a-table{right:50px;}
+	.book-a-table a{letter-spacing:1px; padding: 0 15px;}
+	
+	.location-time .col-md-4{ max-width:100%;}
+	footer ul.quicklinks li{margin: 0 17px;}
+	
+	.menu-page .food-detail ul{-moz-column-count: 1;  -webkit-column-count: 1; column-count: 1;}
+	.contact-page .col-sm1{padding: 0 5%;}
+	.contact-page .address-box{padding: 20px 10px;}
+	.contact-page .contact-form{ padding: 20px 20px;}
+	.contact-page .contact-form ul li textarea{padding: 5px 14px; height: 100px;}
+	.contact-page .address-box .mail-info p a{ font-size:16px;}
+}

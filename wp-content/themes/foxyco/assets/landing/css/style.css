@@ -1,0 +1,47 @@
+body{font-family: 'Oswald', sans-serif; margin:0;}
+
+#sitemain{ width:100%; display:block;}
+.main-bg{ width:100%; display:block; height:100%; position:absolute; left:0; top:0; background: url(../images/main-bg.jpg) no-repeat center; background-size:cover; text-align:center;}
+.foxyco{ width:50%; height:100%; position: absolute; left:0; top:0; display: block;}
+.foxyco .bg{ width:100%; height:100%; position: absolute; left:0; top:0; display: block; background: url(../images/foxyco-hover.jpg) no-repeat center; background-size:cover;  transition:all linear 0.2s; -moz-transition:all linear 0.2s; -webkit-transition:all linear 0.2s; opacity:0;}
+.foxyco:hover .bg{ opacity:1;}
+.main{ width:100%; position: absolute; left:0; top:50%; display:inline-table; vertical-align:middle; margin:-168px 0 0 0;}
+.main .thumb{ width:100%; position: relative; left:0; top:0; display:block; margin:20px 0;}
+.main h2{ width:100%; margin:0; padding:0; font-size:15px; color:#FFFFFF; letter-spacing:2px; font-weight:400;}
+.main a{ width: auto; display:inline-block; margin:0; padding:0 25px; font-size:15px; color:#FFFFFF; letter-spacing:2px; font-weight:400; border-radius:5px; border:3px solid #FFF; line-height:48px; text-transform:uppercase;
+	
+	transition:all linear 0.2s;
+	-moz-transition:all linear 0.2s;
+	-webkit-transition:all linear 0.2s;
+	text-decoration:none;
+}
+.main a:hover{color:#333; background:#FFFFFF;}
+
+
+.stock-barrel{ width:50%; height:100%; position: absolute; right:0; top:0; display:inline-table;}
+.stock-barrel .main .thumb{margin:68px 0;}
+.stock-barrel .bg{ width:100%; height:100%; position: absolute; left:0; top:0; display: block; background: url(../images/stock-barrel-hover.png) no-repeat center; background-size:cover;  transition:all linear 0.2s; -moz-transition:all linear 0.2s; -webkit-transition:all linear 0.2s; opacity:0;}
+.stock-barrel:hover .bg{ opacity:1;}
+
+
+@media screen and (max-width: 1023px) {
+.foxyco{ width:100%; height:50%;}
+.stock-barrel{ width:100%; height:50%; top:auto; bottom:0;}
+	
+}
+
+@media screen and (max-width: 767px) {
+.foxyco{ width:50%; height:100%;}
+.main{ width:100%; position: absolute; left:0; top:50%; display:inline-table; vertical-align:middle; margin:-120px 0 0 0;}
+.main .thumb{ margin:10px 0;}
+.main .thumb img{ width:150px; height:auto; display:inline-block;}
+.main a{ line-height:40px; border:2px solid #FFF;}
+.stock-barrel{ width:50%; height:100%; top:auto; bottom:0;}
+.stock-barrel .main .thumb{ margin:35px 0;}
+.stock-barrel .main .thumb img{ width:250px; height:auto; display:inline-block;}	
+}
+
+@media screen and (max-width: 479px) {
+.foxyco{ width:100%; height:50%;}
+.stock-barrel{ width:100%; height:50%;}
+}
